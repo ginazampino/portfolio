@@ -1,0 +1,30 @@
+## dev
+
+cross-env
+concurrently
+nodemon
+
+babel
+babel-core
+babel-loader
+babel-polyfill
+babel-preset-env
+
+style-loader
+css-loader
+sass-loader
+node-sass
+
+vue
+vue-router
+vue-loader
+vue-template-compiler
+
+webpack
+webpack-cli
+
+html-webpack-plugin
+
+## dep
+
+---

@@ -1,0 +1,3 @@
+node_modules/
+!output/static_content/
+!output/static_content/*
