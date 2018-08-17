@@ -1,0 +1,7 @@
+.simplebar-scrollbar:before {
+    background-color: $color-red;
+}
+
+.simplebar-track .simplebar-scrollbar.visible:before {
+    opacity: .8;
+}

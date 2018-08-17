@@ -1,0 +1,95 @@
+.app-portfolio {
+    @include display-grid;
+    @include grid-template-rows(60px 1fr auto, 0);
+    align-items: center;
+    background-image: url('../images/bg (2).jpg');
+    background-size: cover;
+    justify-content: center;
+    padding: 60px;
+    position: relative;
+    text-align: center;
+    &::after {
+        content: "";
+        background-color: rgba(183, 28, 28, 0.8);
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+    }
+    i {
+        margin-right: 5px;
+        width: 20px;
+    }
+}
+
+.portfolio-name {
+    color: $color-white;
+    font-weight: 300;
+    align-items: center;
+    justify-content: center;
+    line-height: 60px;
+    margin: 0 0 0 -75px;
+    position: relative;
+    text-align: center;
+    transform: skewY(-5deg);
+    z-index: 2;
+    white-space: nowrap;
+}
+
+.portfolio-surname {
+    padding-left: 140px;
+    white-space: nowrap;
+}
+
+// Resume
+.portfolio-resume {
+    color: $color-white;
+    z-index: 2;
+}
+
+.resume-download {
+    border: 1px solid $color-white;
+    font-size: $font-size-small;
+    letter-spacing: $letter-spacing-large;
+    padding: 20px;
+    transition: .2s ease-in-out;
+    white-space: nowrap;
+    &:hover {
+        cursor: pointer;
+        background-color: $color-white;
+        color: $color-red;
+        letter-spacing: 4px;
+        transition: .2s ease-in-out;
+    }
+}
+
+// Contact Information
+.portfolio-contact {
+    color: $color-white;
+    font-size: $font-size-small;
+    letter-spacing: $letter-spacing-large;
+    z-index: 2;
+    ul {
+        li {
+            display: inline-block;
+            white-space: nowrap;
+            span {
+                border-bottom: 1px solid rgba(255, 255, 255, 0); // Hide border to avoid content shift on hover.
+                padding-bottom: 1px;
+                transition: .2s ease-in-out;
+            }
+            a:hover {
+                span {
+                    border-bottom: 1px solid $color-white;
+                    transition: .2s ease-in-out;
+                }   
+            }
+        }
+        li + li {
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+    }
+}
