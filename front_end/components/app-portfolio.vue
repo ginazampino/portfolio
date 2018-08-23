@@ -6,9 +6,11 @@
             </span>
         </div>
         <div>
-            <h1 class="portfolio-name">
-                jr. front-end<br><span class="portfolio-surname">web developer</span>
-            </h1>
+            <div class="portfolio-title">
+                <h1 class="portfolio-title-top">
+                    jr. front-end<br><span class="portfolio-title-bottom">web developer</span>
+                </h1>
+            </div>
         </div>
         <div class="portfolio-contact">
             <ul>

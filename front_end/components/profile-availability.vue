@@ -1,0 +1,31 @@
+<template>
+    <div class="profile-section">
+        <h2>Availability</h2>
+        <ul class="vertical-line">
+            <li class="vertical-line-content">
+                <div class="bulleted content-header">
+                    <div class="content-title">Are you currently available for work?</div>
+                </div>
+                <div class="bulleted content-subheader">
+                    Yes, I'm currently available for contract work and full-time job opportunities.
+                </div>
+            </li>
+            <li class="vertical-line-content">
+                <div class="bulleted content-header">
+                    <div class="content-title">Are you eligible to work in Canada?</div>
+                </div>
+                <div class="bulleted content-subheader">
+                    Yes, I'm a Canadian citizen.
+                </div>
+            </li>
+            <li class="vertical-line-content">
+                <div class="bulleted content-header">
+                    <div class="content-title">Are you eligible to work in the United States?</div>
+                </div>
+                <div class="bulleted content-subheader">
+                    Yes, I'm an American citizen.
+                </div>
+            </li>
+        </ul>
+    </div>
+</template>

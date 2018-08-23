@@ -1,5 +1,28 @@
 .app-profile {
-    background-color: $color-white;
+    padding: 80px;
+    z-index: 2;
     height: 100vh;
-    padding: 60px;
+    overflow-y: auto;
+}
+
+.profile-title {
+    color: $color-red;
+    margin-bottom: 30px;
+    font-size: $font-size-large;
+}
+
+.profile-section {
+    position: relative;
+    p {
+        font-size: $font-size-small;
+        letter-spacing: $letter-spacing-normal;
+        line-height: 20px;
+    }
+    i {
+        font-size: $font-size-large;
+    }
+}
+
+.profile-section + .profile-section {
+    margin-top: 40px;
 }

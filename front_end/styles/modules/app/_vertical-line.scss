@@ -1,0 +1,133 @@
+/*
+
+    The vertical line:
+
+*/
+
+// Anything inside this element will have a vertical line:
+.vertical-line {
+    position: relative;
+    padding-left: 40px;
+}
+
+// The line itself:
+.vertical-line::after {
+    background-color: $color-red;
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    top: 5px;
+    width: 1px;
+}
+
+// The line's "end cap", signifying the end of the section:
+.vertical-line::before {
+    background-color: $color-white;
+    border: 1px solid $color-red;
+    border-radius: 50%;
+    bottom: 0;
+    content: '';
+    height: 7px;
+    left: 0;
+    margin-left: -3px;
+    position: absolute;
+    width: 7px;
+    z-index: 1;
+}
+
+/*
+
+    The content:
+
+*/
+
+// Content to the right of the vertical line:
+.vertical-line-content {
+    line-height: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    &:hover {
+        .bulleted::after {
+            background-color: $color-white;
+            border: 1px solid $color-red;
+            transition: .2s ease-in-out;
+        }
+    }
+}
+
+// The title of the content, typically bulleted:
+.content-header {                       
+    font-size: $font-size-small;
+    margin-bottom: 5px;
+}
+
+// Content below the .content-header element:
+.content-subheader {
+    font-size: $font-size-small;
+}
+
+// Added to ul elements containing a list of skills:
+.content-skill-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-top: -5px;
+    li {
+        display: flex;
+        align-items: center;
+        padding: 2.5px 10px;
+        i {
+            font-size: $font-size-small;
+            margin-right: 10px;
+        }
+    }
+}
+
+/* 
+
+    If the content has start/end dates, or other right-hand side details, 
+    add/use these classes:
+
+*/
+
+.timeline-header,                       
+.timeline-subheader {
+    @include display-grid;
+    @include grid-template-columns(1fr auto, 0);
+}
+
+// The left-hand side grid element:
+.content-title {
+    display: flex;
+    font-weight: $font-weight-bold;
+}
+
+// The right-hand side grid element:
+.content-details {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*
+
+    The "bullets" themselves, which appear on the vertical line:
+
+*/
+
+// Typically added to .content-header elements:
+.bulleted::after {
+    background-color: $color-red;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    content: ''; 
+    height: 7px;
+    margin-left: -43px;
+    left: 0;
+    position: absolute;
+    top: 5px;
+    transition: .2s ease-in-out;
+    width: 7px;
+    z-index: 1;
+}

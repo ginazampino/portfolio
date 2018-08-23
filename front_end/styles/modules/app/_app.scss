@@ -1,5 +1,4 @@
 .app {
     @include display-grid;
-    @include grid-template-columns(50% 50%, 0);
-    height: 100vh;
+    @include grid-template-columns(1fr 1fr, 0);
 }

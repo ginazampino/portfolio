@@ -14,3 +14,16 @@ h1 {
     font-weight: $font-weight-bold;
     letter-spacing: $letter-spacing-large;
 }
+
+h2 {
+    font-size: $font-size-xsmall;
+    letter-spacing: $letter-spacing-large;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    // margin-left: -5px;
+}
+
+h3 {
+    font-size: $font-size-small;
+    letter-spacing: $letter-spacing-normal;
+}

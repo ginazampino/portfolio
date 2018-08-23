@@ -1,8 +1,12 @@
 <template>
     <div class="app">
-        <app-portfolio></app-portfolio>
-        <app-profile></app-profile>
+        <!-- <div data-simplebar data-simplebar-auto-hide="false">
+            <div class="scroll-area"> -->
+            <app-portfolio></app-portfolio>
+            <app-profile></app-profile>
     </div>
+        <!-- </div>
+    </div> -->
 </template>
 
 <script>

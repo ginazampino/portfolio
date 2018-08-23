@@ -5,3 +5,8 @@ a:visited {
     color: inherit;
     text-decoration: none;
 }
+
+.profile-a {
+    border-bottom: 1px dotted $color-red;
+    padding-bottom: 2px;
+}

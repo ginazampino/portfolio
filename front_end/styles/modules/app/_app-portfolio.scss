@@ -4,11 +4,13 @@
     align-items: center;
     background-image: url('../images/bg (2).jpg');
     background-size: cover;
+    background-position: center;
     justify-content: center;
     padding: 60px;
     position: relative;
     text-align: center;
-    &::after {
+    z-index: 0;
+    &::after { // Red background-image overlay.
         content: "";
         background-color: rgba(183, 28, 28, 0.8);
         position: absolute;
@@ -16,7 +18,7 @@
         left: 0;
         bottom: 0;
         right: 0;
-        z-index: 1;
+        z-index: -1; // Must be indexed below interactive links.
     }
     i {
         margin-right: 5px;
@@ -24,26 +26,33 @@
     }
 }
 
-.portfolio-name {
-    color: $color-white;
-    font-weight: 300;
+.portfolio-title {
+    display: flex;
     align-items: center;
     justify-content: center;
-    line-height: 60px;
-    margin: 0 0 0 -75px;
     position: relative;
     text-align: center;
+}
+
+.portfolio-title-top {
+    color: $color-white;
+    font-weight: 300;
+    line-height: 60px;
+    position: absolute;
     transform: skewY(-5deg);
     z-index: 2;
+    padding-left: -30px;
+    margin-left: -20px;
+    width: 270px;
     white-space: nowrap;
 }
 
-.portfolio-surname {
-    padding-left: 140px;
+.portfolio-title-bottom {
+    padding-left: 50px;
     white-space: nowrap;
 }
 
-// Resume
+// Resume download button:
 .portfolio-resume {
     color: $color-white;
     z-index: 2;
@@ -54,6 +63,7 @@
     font-size: $font-size-small;
     letter-spacing: $letter-spacing-large;
     padding: 20px;
+    text-transform: uppercase;
     transition: .2s ease-in-out;
     white-space: nowrap;
     &:hover {
@@ -65,18 +75,20 @@
     }
 }
 
-// Contact Information
+// Contact information table:
 .portfolio-contact {
     color: $color-white;
-    font-size: $font-size-small;
+    font-size: $font-size-xxsmall;
     letter-spacing: $letter-spacing-large;
+    text-transform: uppercase;
     z-index: 2;
     ul {
         li {
             display: inline-block;
+            padding: 0 10px;
             white-space: nowrap;
             span {
-                border-bottom: 1px solid transparent; // Hide border to avoid content shift on hover.
+                border-bottom: 1px solid transparent;
                 padding-bottom: 1px;
                 transition: .2s ease-in-out;
             }
@@ -88,7 +100,6 @@
             }
         }
         li + li {
-            margin-left: 20px;
             margin-top: 20px;
         }
     }
