@@ -1,6 +1,13 @@
+.app-portfolio-container {
+    width: 50%;
+    position: absolute;
+    height: 100vh;
+    left: 0;
+}
+
 .app-portfolio {
     @include display-grid;
-    @include grid-template-rows(60px 1fr auto, 0);
+    @include grid-template-rows(auto 1fr auto, 0);
     align-items: center;
     background-image: url('../images/bg (2).jpg');
     background-size: cover;
@@ -8,6 +15,7 @@
     justify-content: center;
     padding: 60px;
     position: relative;
+    height: 100%;
     text-align: center;
     z-index: 0;
     &::after { // Red background-image overlay.
@@ -27,6 +35,7 @@
 }
 
 .portfolio-title {
+    background-color: orange;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,15 +56,21 @@
     white-space: nowrap;
 }
 
-.portfolio-title-bottom {
+.portfolio-title-upper {
+    display: block;
+}
+
+.portfolio-title-lower {
     padding-left: 50px;
     white-space: nowrap;
 }
 
 // Resume download button:
 .portfolio-resume {
+    align-content: flex-start;
     color: $color-white;
     z-index: 2;
+    padding: 20px;
 }
 
 .resume-download {
@@ -77,6 +92,7 @@
 
 // Contact information table:
 .portfolio-contact {
+    
     color: $color-white;
     font-size: $font-size-xxsmall;
     letter-spacing: $letter-spacing-large;
@@ -85,7 +101,7 @@
     ul {
         li {
             display: inline-block;
-            padding: 0 10px;
+            padding: 10px;
             white-space: nowrap;
             span {
                 border-bottom: 1px solid transparent;
@@ -99,8 +115,8 @@
                 }   
             }
         }
-        li + li {
-            margin-top: 20px;
+        li {
+            // margin-top: 20px;
         }
     }
 }

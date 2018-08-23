@@ -1,18 +1,22 @@
 <template>
-    <!-- <div data-simplebar data-simplebar-auto-hide="false"> -->
-        <div class="app-profile">
-            <profile-summary></profile-summary>
-            <profile-toolbox></profile-toolbox>
-            <profile-projects></profile-projects>
-            <profile-experience></profile-experience>
-            <profile-education></profile-education>
-            <profile-skills></profile-skills>
-            <profile-availability></profile-availability>
+    <div >
+        <div data-simplebar data-simplebar-auto-hide="false" class="app-container">
+            <app-portfolio></app-portfolio>
+            <div class="app-profile">
+                <profile-summary></profile-summary>
+                <profile-toolbox></profile-toolbox>
+                <profile-projects></profile-projects>
+                <profile-experience></profile-experience>
+                <profile-education></profile-education>
+                <profile-skills></profile-skills>
+                <profile-availability></profile-availability>
+            </div>
         </div>
-    <!-- </div> -->
+    </div>
 </template>
 
 <script>
+    import app_portfolio from './app-portfolio.vue';
     import profile_summary from './profile-summary.vue';
     import profile_toolbox from './profile-toolbox.vue';
     import profile_projects from './profile-projects.vue';
@@ -23,6 +27,7 @@
 
     export default {
         components: {
+            'app-portfolio': app_portfolio,
             'profile-summary': profile_summary,
             'profile-toolbox': profile_toolbox,
             'profile-projects': profile_projects,

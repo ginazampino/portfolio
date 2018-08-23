@@ -1,8 +1,14 @@
+.app-container {
+    height: 100vh;
+}
+
 .app-profile {
     padding: 80px;
     z-index: 2;
-    height: 100vh;
-    overflow-y: auto;
+    width: 50%;
+    position: relative;
+    left: 50%;
+    
 }
 
 .profile-title {
