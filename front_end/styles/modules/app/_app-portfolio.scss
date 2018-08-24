@@ -92,31 +92,31 @@
 
 // Contact information table:
 .portfolio-contact {
-    
     color: $color-white;
     font-size: $font-size-xxsmall;
     letter-spacing: $letter-spacing-large;
     text-transform: uppercase;
     z-index: 2;
     ul {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
         li {
-            display: inline-block;
-            padding: 10px;
+            margin: 10px;
             white-space: nowrap;
-            span {
+            .i-label {
                 border-bottom: 1px solid transparent;
                 padding-bottom: 1px;
                 transition: .2s ease-in-out;
             }
             a:hover {
-                span {
+                .i-label {
                     border-bottom: 1px solid $color-white;
                     transition: .2s ease-in-out;
                 }   
             }
-        }
-        li {
-            // margin-top: 20px;
         }
     }
 }

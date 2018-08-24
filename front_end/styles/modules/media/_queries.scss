@@ -85,14 +85,38 @@
     .timeline-header {
         margin-bottom: 10px;
     }
+
+    .portfolio-contact {
+        ul {
+            li {
+                margin: 2.5px;
+            }
+        }
+    }
+
+    .portfolio-contact-list {
+        li {
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            a {
+                padding: 10px;
+            }
+        }
+        i {
+            font-size: $font-size-medium;
+            margin-right: 0;
+        }
+    }
+
+    .i-label {
+        display: none;
+    }
 }
 
-/*
-
-    424
-
-*/
-
+// 449
 @media (max-width: 449px) {
     .app-profile {
         padding: 60px 40px 40px 40px;
@@ -107,12 +131,7 @@
     }
 }
 
-/*
-
-    399
-
-*/
-
+// 399
 @media (max-width: 399px) {
     .portfolio-title { 
         h1 {
@@ -132,8 +151,17 @@
             margin-left: 10px;
         }
     }
-    .content-skill-list {
-        display: block;
+}
+
+// 320
+
+@media (max-width: 320px) {
+    .portfolio-contact {
+        ul {
+            li {
+                margin: 0;
+            }
+        }
     }
 }
 
@@ -143,12 +171,14 @@
 
 */
 
+// 499
 @media (max-height: 499px) {
     .app-portfolio-container {
         height: 100vh;
     }
 }
 
+// 449
 @media (max-height: 449px) {
     .app-portfolio {
         padding: 40px;
@@ -178,6 +208,7 @@
     }
 }
 
+// 379
 @media (max-height: 379px) {
     .app-portfolio {
         padding: 20px;
@@ -188,12 +219,14 @@
     }
 }
 
+// 299
 @media (max-height: 299px) {
     .app-portfolio {
         padding: 20px;
     }
 }
 
+// 249
 @media (max-height: 249px) {
     .app-portfolio-container {
         height: 249px;
