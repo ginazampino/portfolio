@@ -54,6 +54,7 @@
     margin-left: -20px;
     width: 270px;
     white-space: nowrap;
+    transition: .2s ease-in-out;
 }
 
 .portfolio-title-upper {
@@ -119,4 +120,8 @@
             }
         }
     }
+}
+
+.i-label {
+    transition: .2s ease-in-out;
 }

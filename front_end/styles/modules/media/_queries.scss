@@ -116,6 +116,19 @@
     }
 }
 
+// 499
+@media (max-width: 499px) {
+    .project-description,
+    .project-name {
+        display: block;
+    }
+
+    .project-details {
+        justify-content: left;
+        margin-top: 10px;
+    }
+}
+
 // 449
 @media (max-width: 449px) {
     .app-profile {
@@ -125,14 +138,14 @@
     .portfolio-title {
         margin-top: 10px;
     }
-
-    .resume-download {
-        padding: 10px;
-    }
 }
 
 // 399
 @media (max-width: 399px) {
+    .resume-download {
+        padding: 10px;
+    }
+
     .portfolio-title { 
         h1 {
             font-size: 50px;
@@ -156,13 +169,13 @@
 // 320
 
 @media (max-width: 320px) {
-    .portfolio-contact {
-        ul {
-            li {
-                margin: 0;
-            }
-        }
-    }
+    // .portfolio-contact {
+    //     ul {
+    //         li {
+    //             margin: 0;
+    //         }
+    //     }
+    // }
 }
 
 /*

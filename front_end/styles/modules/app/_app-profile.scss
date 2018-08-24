@@ -32,3 +32,84 @@
 .profile-section + .profile-section {
     margin-top: 40px;
 }
+
+.project-image {
+    background-image: url('../images/project.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 200px;
+    width: 100%;
+    &::before { // Red background-image overlay.
+        content: "";
+        background-color: rgba(183, 28, 28, 0.1);
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        transition: .2s ease-in-out;
+        z-index: 0; // Must be indexed below interactive links.
+    }
+    &:hover {
+        &::before { // Red background-image overlay.
+            content: "";
+            background-color: transparent;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            transition: .2s ease-in-out;
+            z-index: 1;
+        }
+    }
+}
+
+.project-tech {
+    background-color: $color-red-transp;
+    bottom: 0;
+    color: $color-white;
+    display: inline-block;
+    padding: 7.5px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+    i {
+        font-size: 22px;
+        
+    }
+    li {
+        display: inline-block;
+        padding: 3.5px;
+    }
+}
+
+.project-description {
+    @include display-grid;
+    @include grid-template-columns(1fr auto, 0);
+    font-size: $font-size-small;
+    letter-spacing: $letter-spacing-medium;
+    padding: 20px 0;
+}
+
+.project-name {
+    display: flex;
+    font-weight: $font-weight-bold;
+}
+
+.project-details {
+    display: flex;
+    justify-content: flex-end;
+    li {
+        i {
+            display: inline-block;
+            color: $color-red;
+            font-size: $font-size-xxsmall;
+        }
+    }
+    li + li {
+        margin-left: 20px;
+    }
+}
