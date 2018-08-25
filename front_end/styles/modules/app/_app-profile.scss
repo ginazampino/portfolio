@@ -88,20 +88,20 @@
 
 .project-description {
     @include display-grid;
-    @include grid-template-columns(1fr auto, 0);
+    @include grid-template-columns(1fr auto);
     font-size: $font-size-small;
     letter-spacing: $letter-spacing-medium;
     padding: 20px 0;
 }
 
 .project-name {
-    display: flex;
+    @include display-flex;
     font-weight: $font-weight-bold;
 }
 
 .project-details {
-    display: flex;
-    justify-content: flex-end;
+    @include display-flex;
+    @include justify-content(flex-end);
     li {
         i {
             display: inline-block;

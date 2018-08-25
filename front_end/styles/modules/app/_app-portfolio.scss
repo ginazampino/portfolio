@@ -7,12 +7,12 @@
 
 .app-portfolio {
     @include display-grid;
-    @include grid-template-rows(auto 1fr auto, 0);
-    align-items: center;
+    @include grid-template-rows(60px 1fr 60px);
+    @include align-items(center);
+    @include justify-content(center);
     background-image: url('../images/bg (2).jpg');
     background-size: cover;
     background-position: center;
-    justify-content: center;
     padding: 60px;
     position: relative;
     height: 100%;
@@ -35,10 +35,10 @@
 }
 
 .portfolio-title {
+    @include display-flex;
+    @include align-items(center);
+    @include justify-content(center);
     background-color: orange;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     position: relative;
     text-align: center;
 }
@@ -47,14 +47,14 @@
     color: $color-white;
     font-weight: 300;
     line-height: 60px;
+    margin-left: -20px;
+    padding-left: -30px;
     position: absolute;
     transform: skewY(-5deg);
-    z-index: 2;
-    padding-left: -30px;
-    margin-left: -20px;
-    width: 270px;
-    white-space: nowrap;
     transition: .2s ease-in-out;
+    white-space: nowrap;
+    width: 270px;
+    z-index: 2;
 }
 
 .portfolio-title-upper {
@@ -68,7 +68,7 @@
 
 // Resume download button:
 .portfolio-resume {
-    align-content: flex-start;
+    @include align-content(flex-start);
     color: $color-white;
     z-index: 2;
     padding: 20px;
@@ -83,9 +83,9 @@
     transition: .2s ease-in-out;
     white-space: nowrap;
     &:hover {
-        cursor: pointer;
         background-color: $color-white;
         color: $color-red;
+        cursor: pointer;
         letter-spacing: 4px;
         transition: .2s ease-in-out;
     }
@@ -99,11 +99,11 @@
     text-transform: uppercase;
     z-index: 2;
     ul {
-        align-items: center;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
+        @include display-flex;
+        @include align-items(center);
+        @include flex-direction(row);
+        @include flex-wrap(wrap);
+        @include justify-content(center);
         li {
             margin: 10px;
             white-space: nowrap;

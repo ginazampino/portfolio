@@ -36,10 +36,9 @@
     grid-column: span $value;
 }
 
-@mixin grid-template-columns($value, $gap) {
+@mixin grid-template-columns($value) {
     -ms-grid-columns: $value;
     grid-template-columns: $value;
-    grid-gap: $gap;
 }
 
 // Rows
@@ -53,8 +52,7 @@
     grid-row: span $value;
 }
 
-@mixin grid-template-rows($value, $gap) {
+@mixin grid-template-rows($value) {
     -ms-grid-rows: $value;
     grid-template-rows: $value;
-    grid-gap: $gap;
 }

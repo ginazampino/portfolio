@@ -5,7 +5,7 @@
             <li class="vertical-line-content">
                 <div class="bulleted content-header timeline-header">
                     <div class="content-title">EPUB Quality Checker</div>
-                    <div class="content-details">Jun. 2017 – Present</div>
+                    <div class="content-details">Jun. 2018 – Present</div>
                 </div>
                 <div class="bulleted content-subheader timeline-subheader">
                     <div class="subheader-title">
