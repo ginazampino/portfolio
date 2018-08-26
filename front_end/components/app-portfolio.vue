@@ -6,12 +6,14 @@
                     <i class="fas fa-download"></i>Resume
                 </span>
             </div>
-            <div>
-                <div class="portfolio-title">
-                    <h1 class="portfolio-title-top">
-                        <span class="portfolio-title-upper">jr. front-end</span>
-                        <span class="portfolio-title-lower">web developer</span>
-                    </h1>
+            <div class="portfolio-title-container">
+                <div>
+                    <div class="portfolio-title">
+                        <h1 class="portfolio-title-top">
+                            <span class="portfolio-title-upper">jr. front-end</span>
+                            <span class="portfolio-title-lower">web developer</span>
+                        </h1>
+                    </div>
                 </div>
             </div>
             <div class="portfolio-contact">

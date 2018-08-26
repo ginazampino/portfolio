@@ -6,8 +6,8 @@
 }
 
 .app-portfolio {
-    @include display-grid;
-    @include grid-template-rows(60px 1fr 60px);
+    @include display-flex;
+    @include flex-direction(column);
     @include align-items(center);
     @include justify-content(center);
     background-image: url('../images/bg (2).jpg');
@@ -17,6 +17,7 @@
     position: relative;
     height: 100%;
     text-align: center;
+    width: 100%;
     z-index: 0;
     &::after { // Red background-image overlay.
         content: "";
@@ -34,13 +35,18 @@
     }
 }
 
+// Title:
+.portfolio-title-container {
+    @include display-flex;
+    @include flex(1);
+}
+
 .portfolio-title {
     @include display-flex;
     @include align-items(center);
     @include justify-content(center);
-    background-color: orange;
-    position: relative;
     text-align: center;
+    height: 100%;
 }
 
 .portfolio-title-top {
@@ -49,12 +55,10 @@
     line-height: 60px;
     margin-left: -20px;
     padding-left: -30px;
-    position: absolute;
     transform: skewY(-5deg);
     transition: .2s ease-in-out;
     white-space: nowrap;
     width: 270px;
-    z-index: 2;
 }
 
 .portfolio-title-upper {
@@ -68,7 +72,6 @@
 
 // Resume download button:
 .portfolio-resume {
-    @include align-content(flex-start);
     color: $color-white;
     z-index: 2;
     padding: 20px;
@@ -97,6 +100,7 @@
     font-size: $font-size-xxsmall;
     letter-spacing: $letter-spacing-large;
     text-transform: uppercase;
+    width: 100%;
     z-index: 2;
     ul {
         @include display-flex;
@@ -104,6 +108,7 @@
         @include flex-direction(row);
         @include flex-wrap(wrap);
         @include justify-content(center);
+        width: 100%;
         li {
             margin: 10px;
             white-space: nowrap;

@@ -33,6 +33,7 @@
     margin-top: 40px;
 }
 
+// Project items:
 .project-image {
     background-image: url('../images/project.png');
     background-size: cover;
@@ -89,6 +90,7 @@
 .project-description {
     @include display-grid;
     @include grid-template-columns(1fr auto);
+    @include justify-content(flex-end);
     font-size: $font-size-small;
     letter-spacing: $letter-spacing-medium;
     padding: 20px 0;
