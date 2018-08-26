@@ -63,7 +63,8 @@
                     </ul>
                 </div>
                 <p>
-                    A responsive, single-page developer portfolio site built to demonstrate a fundamental understanding of basic web design and development skills.
+                    A responsive, single-page developer portfolio built to demonstrate a basic understanding of fundemental web design and development skills. 
+                    Designed with cross-browser compatibility, including support for Chrome, Firefox, Edge, and IE11.
                 </p>
             </li>
         </ul>
