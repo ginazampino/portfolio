@@ -55,7 +55,7 @@
                         </li>   
                         <li>
                             <span class="project-details-label">
-                                <a class="profile-a" href="#" target="_blank">
+                                <a class="profile-a" href="https://github.com/ginazampino/portfolio" target="_blank">
                                     Source
                                 </a>
                             </span>
@@ -63,7 +63,7 @@
                     </ul>
                 </div>
                 <p>
-                    A responsive, single-page developer portfolio built to demonstrate a basic understanding of fundemental web design and development skills. 
+                    A responsive, single-page developer portfolio built to demonstrate a basic understanding of fundamental web design and development skills. 
                     Designed with cross-browser compatibility, including support for Chrome, Firefox, Edge, and IE11.
                 </p>
             </li>
