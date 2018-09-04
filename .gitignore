@@ -1,5 +1,4 @@
 node_modules/
 front_end/images/*
-wwwroot/images/*
 !output/static_content/
 !output/static_content/*
