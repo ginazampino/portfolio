@@ -1,3 +1,32 @@
 .app {
     overflow-x: hidden;
 }
+
+.sticky-button {
+    @include display-flex;
+    @include align-items(center);
+    @include justify-content(center);
+    height: 30px;
+    width: 30px;
+    background-color: rgba($color-red, 0.8);
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    z-index: 999;
+    i {
+        color: $color-white;
+        font-size: $font-size-normal;
+        transition: .2s ease-in-out;
+    }
+    &:hover {
+        cursor: pointer;
+        i {
+            color: rgba(255, 255, 255, 0.55);
+            transition: .2s ease-in-out;
+        }
+    }
+}
+
+.sticky-mobile {
+    display: none;
+}

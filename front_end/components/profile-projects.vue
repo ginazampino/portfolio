@@ -3,7 +3,7 @@
         <h2>Projects</h2>
         <ul>
             <li class="project">
-                <div class="project-image">
+                <div class="project-image project1">
                     <ul class="project-tech">
                         <li>
                             <i class="devicon-html5-plain" title="HTML5"></i>
@@ -64,7 +64,7 @@
                 </div>
                 <p>
                     A responsive, single-page developer portfolio built to demonstrate a basic understanding of fundamental web design and development skills. 
-                    Designed with cross-browser compatibility, including support for Chrome, Firefox, Edge, and IE11.
+                    Designed with cross-browser compatibility, including support for IE11.
                 </p>
             </li>
         </ul>

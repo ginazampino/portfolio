@@ -89,6 +89,14 @@
             margin-top: 0
         }
     }
+
+    .sticky-default {
+        display: none;
+    }
+
+    .sticky-mobile {
+        display: block;
+    }
 }
 
 /*
@@ -226,6 +234,8 @@
     }
         
     .portfolio-title { 
+        margin-top: -10px;
+        
         h1 {
             font-size: 50px;
         }

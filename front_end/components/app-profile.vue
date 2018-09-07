@@ -1,8 +1,20 @@
 <template>
     <div >
         <div data-simplebar data-simplebar-auto-hide="false" class="app-container">
+            <a href="#top" class="sticky-default">
+                <div class="sticky-button">
+                    <i class="fas fa-angle-up"></i>
+                </div>
+            </a>
+            <a href="#top-mobile" class="sticky-mobile">
+                <div class="sticky-button">
+                    <i class="fas fa-angle-up"></i>
+                </div>
+            </a>
+            <a name="top-mobile"></a>
             <app-portfolio></app-portfolio>
-            <div class="app-profile">
+            <a name="top"></a>
+            <section class="app-profile">
                 <profile-summary></profile-summary>
                 <profile-toolbox></profile-toolbox>
                 <profile-projects></profile-projects>
@@ -10,7 +22,7 @@
                 <profile-education></profile-education>
                 <profile-skills></profile-skills>
                 <profile-availability></profile-availability>
-            </div>
+            </section>
         </div>
     </div>
 </template>
