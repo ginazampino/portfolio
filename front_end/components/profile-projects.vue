@@ -30,9 +30,6 @@
                             <i class="devicon-express-original" title="Express"></i>
                         </li>
                         <li>
-                            <i class="devicon-amazonwebservices-original" title="AWS"></i>
-                        </li>
-                        <li>
                             <i class="devicon-visualstudio-plain" title="VS Code"></i>
                         </li>
                         <li>

@@ -9,4 +9,7 @@ a:visited {
 .profile-a {
     border-bottom: 1px dotted $color-red;
     padding-bottom: 2px;
+    &.commit-repo {
+        padding-bottom: 0;
+    }
 }

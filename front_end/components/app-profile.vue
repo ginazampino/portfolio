@@ -18,6 +18,7 @@
                 <profile-summary></profile-summary>
                 <profile-toolbox></profile-toolbox>
                 <profile-projects></profile-projects>
+                <profile-commits></profile-commits>
                 <profile-experience></profile-experience>
                 <profile-education></profile-education>
                 <profile-skills></profile-skills>
@@ -32,6 +33,7 @@
     import profile_summary from './profile-summary.vue';
     import profile_toolbox from './profile-toolbox.vue';
     import profile_projects from './profile-projects.vue';
+    import profile_commits from './profile-commits.vue';
     import profile_experience from './profile-experience.vue';
     import profile_education from './profile-education.vue';
     import profile_skills from './profile-skills.vue';
@@ -42,6 +44,7 @@
             'app-portfolio': app_portfolio,
             'profile-summary': profile_summary,
             'profile-toolbox': profile_toolbox,
+            'profile-commits': profile_commits,
             'profile-projects': profile_projects,
             'profile-experience': profile_experience,
             'profile-education': profile_education,

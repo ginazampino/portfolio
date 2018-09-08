@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 
+const github = require('./github');
 const config = require('./config');
 
 require('./middleware/')(app);
