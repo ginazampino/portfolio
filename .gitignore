@@ -1,3 +1,6 @@
 node_modules/
 !output/static_content/
 !output/static_content/*
+wwwroot/main.js
+wwwroot/index.html
+yarn*.lock
