@@ -8,7 +8,7 @@
                     <div class="content-details">Sep. 2016 – Jun. 2017</div>
                 </div>
                 <div class="bulleted content-subheader timeline-subheader">
-                    <div class="subheader-title">Graduate Certificate in Publishing (4.39 GPA)</div>
+                    <div class="subheader-title">Graduate Certificate in Publishing</div>
                     <div class="subheader-details">Toronto, ON</div>
                 </div>
             </li>
@@ -18,7 +18,7 @@
                     <div class="content-details">Sep. 2012 – Jun. 2016</div>
                 </div>
                 <div class="bulleted content-subheader timeline-subheader">
-                    <div class="subheader-title">Bachelor of Arts Honours in English (3.76 GPA)</div>
+                    <div class="subheader-title">Bachelor of Arts Honours in English</div>
                     <div class="subheader-details">Kingston, ON</div>
                 </div>
             </li>
