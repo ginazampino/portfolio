@@ -2,8 +2,10 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { VueLoaderPlugin } = require('vue-loader');
 
+const isDevMode = process.env.NODE_ENV === 'development';
+
 module.exports = {
-    mode: 'development',
+    mode: isDevMode ? 'development' : 'production',
 
     entry: {
         'main': [
@@ -66,5 +68,5 @@ module.exports = {
         extensions: ['.json', '.js', '.css', '.scss']
     },
 
-    devtool: 'cheap-module-eval-source-map'
+    devtool: isDevMode ? 'cheap-module-eval-source-map' : 'source-map'
 };
