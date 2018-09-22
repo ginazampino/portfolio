@@ -1,5 +1,5 @@
 <template>
-    <div class="profile-section">
+    <section class="profile-section">
         <h2>Toolbox</h2>
         <ul class="vertical-line">
             <li class="vertical-line-content">
@@ -30,6 +30,7 @@
                         <li>Bootstrap</li>
                         <li>JavaScript</li>
                         <li>jQuery</li>
+                        <li>Axios</li>
                         <li>Nunjucks</li>
                         <li>Vue.js</li>
                         <li>Webpack</li>
@@ -46,7 +47,10 @@
                         <li>Express</li>
                         <li>MySQL</li>
                         <li>MariaDB</li>
-                        <!--<li>MongoDB</li>-->
+                        <li>Axios</li>
+                        <li>Sequelize</li>
+                        <li>Objection.js</li>
+                        <li>Knex</li>
                     </ul>
                 </div>
             </li>
@@ -62,5 +66,5 @@
                 </div>
             </li>
         </ul>
-    </div>
+    </section>
 </template>

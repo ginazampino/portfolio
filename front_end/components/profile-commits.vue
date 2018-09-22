@@ -1,5 +1,5 @@
 <template>
-    <div class="profile-section">
+    <section class="profile-section">
         <h2>Recent Commits</h2>
         <ul class="vertical-line" v-if="commits">
             <li class="vertical-line-content" v-for="commit in commits" v-bind:key="commit.sha">
@@ -18,7 +18,7 @@
                 </div>
             </li>
         </ul>
-    </div>
+    </section>
 </template>
 
 

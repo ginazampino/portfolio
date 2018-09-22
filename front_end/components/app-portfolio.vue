@@ -1,22 +1,20 @@
 <template>
-    <div class="app-portfolio-container">
+    <header class="app-portfolio-container">
         <div class="app-portfolio">
-            <div class="portfolio-resume">
+            <section class="portfolio-resume">
                 <span class="resume-download">
                     <i class="fas fa-download"></i>Resume
                 </span>
-            </div>
-            <div class="portfolio-title-container">
-                <div>
+            </section>
+            <section class="portfolio-title-container">
                     <div class="portfolio-title">
                         <h1 class="portfolio-title-top">
                             <span class="portfolio-title-upper">jr. front-end</span>
                             <span class="portfolio-title-lower">web developer</span>
                         </h1>
                     </div>
-                </div>
-            </div>
-            <div class="portfolio-contact">
+            </section>
+            <nav class="portfolio-contact">
                 <ul class="portfolio-contact-list">
                     <li>
                         <a href="https://goo.gl/maps/J4d62KNtVnH2" target="_blank">
@@ -49,7 +47,7 @@
                         </a>
                     </li>
                 </ul>
-            </div>
+            </nav>
         </div>
-    </div>
+    </header>
 </template>

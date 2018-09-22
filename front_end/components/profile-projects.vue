@@ -1,5 +1,5 @@
 <template>
-    <div class="profile-section">
+    <section class="profile-section">
         <h2>Projects</h2>
         <ul>
             <li class="project">
@@ -45,7 +45,7 @@
                     <ul class="project-details">
                         <li>
                             <span class="project-details-label">
-                                <a class="profile-a" href="#" target="_blank">
+                                <a class="profile-a" href="http://www.ginazampino.com" target="_blank">
                                     Live
                                 </a>
                             </span>
@@ -65,5 +65,5 @@
                 </p>
             </li>
         </ul>
-    </div>
+    </section>
 </template>

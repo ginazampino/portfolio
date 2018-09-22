@@ -1,5 +1,5 @@
 <template>
-    <div class="profile-section">
+    <section class="profile-section">
         <h2>Education</h2>
         <ul class="vertical-line">
             <li class="vertical-line-content">
@@ -23,5 +23,5 @@
                 </div>
             </li>
         </ul>
-    </div>
+    </section>
 </template>

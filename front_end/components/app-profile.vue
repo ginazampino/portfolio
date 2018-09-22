@@ -1,5 +1,5 @@
 <template>
-    <div >
+    <main>
         <div data-simplebar data-simplebar-auto-hide="false" class="app-container">
             <a href="#top" class="sticky-default">
                 <div class="sticky-button">
@@ -14,7 +14,7 @@
             <a name="top-mobile"></a>
             <app-portfolio></app-portfolio>
             <a name="top"></a>
-            <section class="app-profile">
+            <article class="app-profile">
                 <profile-summary></profile-summary>
                 <profile-toolbox></profile-toolbox>
                 <profile-projects></profile-projects>
@@ -23,9 +23,9 @@
                 <profile-education></profile-education>
                 <profile-skills></profile-skills>
                 <profile-availability></profile-availability>
-            </section>
+            </article>
         </div>
-    </div>
+    </main>
 </template>
 
 <script>
