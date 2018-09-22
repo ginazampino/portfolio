@@ -8,10 +8,12 @@
                 </div>
                 <div class="bulleted content-subheader">
                     <ul class="content-skill-list">
-                        <li>Photoshop</li>
-                        <li>Illustrator</li>
-                        <li>InDesign</li>
-                        <li>VS Code</li>
+                        <li>Adobe Photoshop</li>
+                        <li>Adobe Illustrator</li>
+                        <li>Adobe InDesign</li>
+                        <li>Visual Studio Code</li>
+                        <li>Postman</li>
+                        <li>MySQL Workbench</li>
                     </ul>
                 </div>
             </li>
@@ -30,7 +32,6 @@
                         <li>Bootstrap</li>
                         <li>JavaScript</li>
                         <li>jQuery</li>
-                        <li>Axios</li>
                         <li>Nunjucks</li>
                         <li>Vue.js</li>
                         <li>Webpack</li>
