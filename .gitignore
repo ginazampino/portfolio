@@ -1,5 +1,9 @@
 node_modules/
-wwwroot/main.js
-wwwroot/main.js.map
+#wwwroot/main.js
+#wwwroot/main.js.map
+wwwroot/*.js
+wwwroot/*.js.map
+wwwroot/*.css
+wwwroot/*.css.map
 wwwroot/index.html
 yarn*.lock
