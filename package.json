@@ -6,7 +6,7 @@
   "scripts": {
     "server": "node server/server.js",
     "build": "webpack --config front_end/webpack.config.js",
-    "dev": "concurrently \"cross-env NODE_ENV=development nodemon server/server.js\" \"webpack --config front_end/webpack.config.js -w\""
+    "dev": "cross-env NODE_ENV=development concurrently \"nodemon server/server.js\" \"webpack --config front_end/webpack.config.js -w\""
   },
   "author": "",
   "license": "ISC",

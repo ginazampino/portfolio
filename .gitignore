@@ -1,6 +1,5 @@
 node_modules/
-!output/static_content/
-!output/static_content/*
 wwwroot/main.js
+wwwroot/main.js.map
 wwwroot/index.html
 yarn*.lock

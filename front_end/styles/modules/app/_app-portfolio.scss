@@ -45,8 +45,8 @@
     @include display-flex;
     @include align-items(center);
     @include justify-content(center);
-    text-align: center;
     height: 100%;
+    text-align: center;
 }
 
 .portfolio-title-top {
