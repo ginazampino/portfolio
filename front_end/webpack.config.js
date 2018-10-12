@@ -3,8 +3,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { VueLoaderPlugin } = require('vue-loader');
 
-const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
-const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
+const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 const isDevMode = process.env.NODE_ENV === 'development';
 
@@ -50,6 +50,13 @@ module.exports = {
                 options: {
                     name: 'images/[name].[ext]'
                 }
+            },
+            {
+                test: /\.(webm|mp4)$/,
+                loader: 'file-loader',
+                options: {
+                    name: 'images/[name].[ext]'
+                }
             }
         ]
     },
@@ -59,7 +66,7 @@ module.exports = {
             new UglifyJsPlugin({
                 cache: true,
                 parallel: true,
-                sourceMap: true // set to true if you want JS source maps
+                sourceMap: true
             }),
             new OptimizeCSSAssetsPlugin({})
         ]
@@ -75,13 +82,10 @@ module.exports = {
 
         // Extract the CSS chunks into a minified, bundled CSS file:
         new MiniCssExtractPlugin({
-            // Options similar to the same options in webpackOptions.output
-            // both options are optional
             filename: isDevMode ? '[name].css' : '[name].[hash].css',
             chunkFilename: isDevMode ? '[id].css' : '[id].[hash].css',
         }),
 
-        // Support vue-loader:
         new VueLoaderPlugin()
     ],
 

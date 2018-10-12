@@ -69,8 +69,12 @@
 
     .app-profile {
         display: block;
-        width: 100%;
-        left: 0;
+        // width: 100%;
+        // left: 0;
+    }
+
+    .app-profile {
+        padding-left: 0;
     }
 
     .project-description {
@@ -185,7 +189,7 @@
 
 // 449
 @media (max-width: 449px) {
-    .app-profile {
+    .app-profile-content {
         padding: 60px 40px 40px 40px;
     }
 }

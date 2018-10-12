@@ -15,14 +15,16 @@
             <app-portfolio></app-portfolio>
             <a name="top"></a>
             <article class="app-profile">
-                <profile-summary></profile-summary>
-                <profile-toolbox></profile-toolbox>
-                <profile-projects></profile-projects>
-                <profile-commits></profile-commits>
-                <profile-experience></profile-experience>
-                <profile-education></profile-education>
-                <profile-skills></profile-skills>
-                <profile-availability></profile-availability>
+                <div class="app-profile-content">
+                    <profile-summary></profile-summary>
+                    <profile-toolbox></profile-toolbox>
+                    <profile-projects></profile-projects>
+                    <profile-commits></profile-commits>
+                    <profile-experience></profile-experience>
+                    <profile-education></profile-education>
+                    <profile-skills></profile-skills>
+                    <profile-availability></profile-availability>
+                </div>
             </article>
         </div>
     </main>
