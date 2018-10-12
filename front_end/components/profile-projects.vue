@@ -3,7 +3,7 @@
         <h2>Projects</h2>
         <ul>
             <li class="project">
-                <div class="project-image project1">
+                <div class="project-image project-portfolio">
                     <ul class="project-tech">
                         <li>
                             <i class="devicon-html5-plain" title="HTML5"></i>

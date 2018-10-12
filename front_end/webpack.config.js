@@ -45,14 +45,7 @@ module.exports = {
                 loader: 'vue-loader'
             },
             {
-                test: /\.(jpg|jpeg|png|gif|tiff|bmp)$/,
-                loader: 'file-loader',
-                options: {
-                    name: 'images/[name].[ext]'
-                }
-            },
-            {
-                test: /\.(webm|mp4)$/,
+                test: /\.(jpg|jpeg|png|gif|tiff|bmp|webm)$/,
                 loader: 'file-loader',
                 options: {
                     name: 'images/[name].[ext]'
