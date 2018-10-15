@@ -36,4 +36,4 @@ In the back end, the project is run by Node.js and a simple Express server.
 
 ## Other Notes
 
-The project includes a few other features I can't take any credit for. My mentor dockerized the site, set up a continuous integration service provided by Azure DevOps, and deployed the project onto the AWS cloud. It was fun to watch the whole process, and I'd love to learn how to do it all soon!
+The project includes a few other features I can't take any credit for. My mentor dockerized the site, set up a continuous integration service provided by Azure DevOps, and deployed the project onto the AWS cloud. Thank you!
