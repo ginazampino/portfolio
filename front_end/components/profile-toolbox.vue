@@ -27,7 +27,7 @@
                         <li>CSS3</li>
                         <li>SCSS</li>
                         <li>RWD</li>
-                        <li>CSS Grid</li>
+                        <li>Grid</li>
                         <li>Flexbox</li>
                         <li>Bootstrap</li>
                         <li>JavaScript</li>
