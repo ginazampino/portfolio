@@ -11,7 +11,7 @@
             <section class="portfolio-title-container">
                     <div class="portfolio-title">
                         <h1 class="portfolio-title-top">
-                            <span class="portfolio-title-upper">jr. front-end</span>
+                            <span class="portfolio-title-upper">front-end</span>
                             <span class="portfolio-title-lower">web developer</span>
                         </h1>
                     </div>
