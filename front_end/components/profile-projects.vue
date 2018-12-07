@@ -44,7 +44,7 @@
                     </ul>
                 </div>
                 <div class="project-description">
-                    <div class="project-name">Photography Portfolio</div>
+                    <div class="project-name">Jersey Pines Photography</div>
                     <ul class="project-details">
                         <li>
                             <span class="project-details-label">
