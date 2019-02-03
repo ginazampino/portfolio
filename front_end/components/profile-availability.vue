@@ -4,14 +4,6 @@
         <ul class="vertical-line">
             <li class="vertical-line-content">
                 <div class="bulleted content-header">
-                    <div class="content-title">Are you currently available for work?</div>
-                </div>
-                <div class="bulleted content-subheader">
-                    Yes, I'm currently available for contract work and full-time job opportunities.
-                </div>
-            </li>
-            <li class="vertical-line-content">
-                <div class="bulleted content-header">
                     <div class="content-title">Are you eligible to work in Canada?</div>
                 </div>
                 <div class="bulleted content-subheader">
@@ -24,6 +16,14 @@
                 </div>
                 <div class="bulleted content-subheader">
                     Yes, I'm an American citizen.
+                </div>
+            </li>
+            <li class="vertical-line-content">
+                <div class="bulleted content-header">
+                    <div class="content-title">Are you open to relocation within Canada?</div>
+                </div>
+                <div class="bulleted content-subheader">
+                    Yes, I'm open to relocating to Ottawa, ON.
                 </div>
             </li>
         </ul>

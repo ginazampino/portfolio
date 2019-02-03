@@ -4,8 +4,22 @@
         <ul class="vertical-line">
             <li class="vertical-line-content">
                 <div class="bulleted content-header timeline-header">
+                    <div class="content-title">Front-End Web Developer</div>
+                    <div class="content-details">Feb. 2019 – Present</div>
+                </div>
+                <div class="bulleted content-subheader timeline-subheader">
+                    <div class="subheader-title">
+                        <a class="profile-a" href="https://jewishtoronto.com/" target="_blank">
+                            UJA Federation of Greater Toronto
+                        </a>
+                    </div>
+                    <div class="subheader-details">Toronto, ON</div>
+                </div>
+            </li>
+            <li class="vertical-line-content">
+                <div class="bulleted content-header timeline-header">
                     <div class="content-title">EPUB Quality Checker</div>
-                    <div class="content-details">Jun. 2018 – Present</div>
+                    <div class="content-details">Jun. 2018 – Feb. 2019</div>
                 </div>
                 <div class="bulleted content-subheader timeline-subheader">
                     <div class="subheader-title">
@@ -13,13 +27,13 @@
                             Harlequin Enterprises
                         </a>
                     </div>
-                    <div class="subheader-details">Freelance</div>
+                    <div class="subheader-details">Toronto, ON</div>
                 </div>
             </li>
             <li class="vertical-line-content">
                 <div class="bulleted content-header timeline-header">
                     <div class="content-title">Repro Proofreader</div>
-                    <div class="content-details">May 2017 – Present</div>
+                    <div class="content-details">May 2017 – Feb. 2019</div>
                 </div>
                 <div class="bulleted content-subheader timeline-subheader">
                     <div class="subheader-title">
@@ -27,7 +41,7 @@
                             Harlequin Enterprises
                         </a>
                     </div>
-                    <div class="subheader-details">Freelance</div>
+                    <div class="subheader-details">Toronto, ON</div>
                 </div>
             </li>
             <li class="vertical-line-content">

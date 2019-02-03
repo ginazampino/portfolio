@@ -11,9 +11,6 @@
                         <li>Adobe Photoshop</li>
                         <li>Adobe Illustrator</li>
                         <li>Adobe InDesign</li>
-                        <li>Visual Studio Code</li>
-                        <li>Postman</li>
-                        <li>MySQL Workbench</li>
                     </ul>
                 </div>
             </li>
@@ -26,15 +23,12 @@
                         <li>HTML5</li>
                         <li>CSS3</li>
                         <li>SCSS</li>
-                        <li>RWD</li>
-                        <li>Grid</li>
-                        <li>Flexbox</li>
                         <li>Bootstrap</li>
                         <li>JavaScript</li>
                         <li>jQuery</li>
                         <li>Nunjucks</li>
                         <li>Vue.js</li>
-                        <li>Webpack</li>
+                        <li>Electron</li>
                     </ul>
                 </div>
             </li>
@@ -47,22 +41,21 @@
                         <li>Node.js</li>
                         <li>Express</li>
                         <li>MySQL</li>
-                        <li>MariaDB</li>
-                        <li>Axios</li>
                         <li>Sequelize</li>
-                        <li>Objection.js</li>
-                        <li>Knex</li>
+                        <li>Axios</li>
+                        <li>RESTful API</li>
                     </ul>
                 </div>
             </li>
             <li class="vertical-line-content">
                 <div class="bulleted content-header">
-                    <div class="content-title">Version Control</div>
+                    <div class="content-title">Tooling</div>
                 </div>
                 <div class="bulleted content-subheader">
                     <ul class="content-skill-list">
+                        <li>Webpack</li>
                         <li>Git</li>
-                        <li>GitHub</li>
+                        <li>npm</li>
                     </ul>
                 </div>
             </li>
