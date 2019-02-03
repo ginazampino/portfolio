@@ -2,7 +2,7 @@
     <header class="app-portfolio-container">
         <div class="app-portfolio">
             <section class="portfolio-resume">
-                <a href="https://drive.google.com/file/d/1Y3pM054uWBMWrhrQVHMhLmo3DFILkKFI/view?usp=sharing" target="_blank">
+                <a href="https://drive.google.com/open?id=1wKMPt-9kUsTBd1F-CELgoDhNDm1V7k1_" target="_blank">
                     <span class="resume-download">
                         <i class="fas fa-download"></i>Resume
                     </span>
