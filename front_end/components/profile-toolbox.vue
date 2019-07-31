@@ -23,7 +23,6 @@
                         <li>HTML5</li>
                         <li>CSS3</li>
                         <li>SCSS</li>
-                        <li>Bootstrap</li>
                         <li>JavaScript</li>
                         <li>jQuery</li>
                         <li>Nunjucks</li>
@@ -54,6 +53,7 @@
                 <div class="bulleted content-subheader">
                     <ul class="content-skill-list">
                         <li>Webpack</li>
+                        <li>Gulp</li>
                         <li>Git</li>
                         <li>npm</li>
                     </ul>
