@@ -21,7 +21,7 @@
                     <li>
                         <a href="https://goo.gl/maps/J4d62KNtVnH2" target="_blank">
                             <i class="fas fa-map-marker-alt"></i>
-                            <span class="i-label">Toronto, CA</span>
+                            <span class="i-label">Raleigh-Durham, NC</span>
                         </a>
                     </li>
                     <li>
@@ -39,7 +39,7 @@
                     <li>
                         <a href="tel:343-333-1721">
                             <i class="fas fa-phone"></i>
-                            <span class="i-label">+1 (343) 333-1721</span>
+                            <span class="i-label">+1 (919) 939-0529</span>
                         </a>
                     </li>
                     <li>

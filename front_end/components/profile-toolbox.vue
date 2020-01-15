@@ -11,6 +11,7 @@
                         <li>Adobe Photoshop</li>
                         <li>Adobe Illustrator</li>
                         <li>Adobe InDesign</li>
+                        <li>Asana</li>
                     </ul>
                 </div>
             </li>
@@ -52,6 +53,7 @@
                 </div>
                 <div class="bulleted content-subheader">
                     <ul class="content-skill-list">
+                        <li>DevTools</li>
                         <li>Webpack</li>
                         <li>Gulp</li>
                         <li>Git</li>

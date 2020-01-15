@@ -4,8 +4,22 @@
         <ul class="vertical-line">
             <li class="vertical-line-content">
                 <div class="bulleted content-header timeline-header">
+                    <div class="content-title">Web Developer &amp; Designer</div>
+                    <div class="content-details">Dec. 2019 – Present</div>
+                </div>
+                <div class="bulleted content-subheader timeline-subheader">
+                    <div class="subheader-title">
+                        <a class="profile-a" href="https://ginazampino.com" target="_blank">
+                            Freelance
+                        </a>
+                    </div>
+                    <div class="subheader-details">Raleigh-Durham, NC</div>
+                </div>
+            </li>
+            <li class="vertical-line-content">
+                <div class="bulleted content-header timeline-header">
                     <div class="content-title">Front-End Web Developer</div>
-                    <div class="content-details">Feb. 2019 – Present</div>
+                    <div class="content-details">Feb. 2019 – Jan. 2020</div>
                 </div>
                 <div class="bulleted content-subheader timeline-subheader">
                     <div class="subheader-title">
