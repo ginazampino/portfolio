@@ -26,9 +26,7 @@
                         <li>SCSS</li>
                         <li>JavaScript</li>
                         <li>jQuery</li>
-                        <li>Nunjucks</li>
                         <li>Vue.js</li>
-                        <li>Electron</li>
                     </ul>
                 </div>
             </li>
