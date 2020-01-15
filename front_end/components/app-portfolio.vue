@@ -19,7 +19,7 @@
             <nav class="portfolio-contact">
                 <ul class="portfolio-contact-list">
                     <li>
-                        <a href="https://goo.gl/maps/J4d62KNtVnH2" target="_blank">
+                        <a href="https://www.google.com/maps/@35.8556524,-78.9104536,11z" target="_blank">
                             <i class="fas fa-map-marker-alt"></i>
                             <span class="i-label">Raleigh-Durham, NC</span>
                         </a>
@@ -37,7 +37,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="tel:343-333-1721">
+                        <a href="tel:919-939-0529">
                             <i class="fas fa-phone"></i>
                             <span class="i-label">+1 (919) 939-0529</span>
                         </a>
