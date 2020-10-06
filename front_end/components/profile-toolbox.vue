@@ -11,7 +11,8 @@
                         <li>Adobe Photoshop</li>
                         <li>Adobe Illustrator</li>
                         <li>Adobe InDesign</li>
-                        <li>Asana</li>
+                        <li>Sourcetree</li>
+                        <li>Postman</li>
                     </ul>
                 </div>
             </li>
@@ -37,11 +38,14 @@
                 <div class="bulleted content-subheader">
                     <ul class="content-skill-list">
                         <li>Node.js</li>
+                        <li>DigitalOcean</li>
                         <li>Express</li>
                         <li>MySQL</li>
                         <li>Sequelize</li>
                         <li>Axios</li>
                         <li>RESTful API</li>
+                        <li>Strapi</li>
+                        <li>Nginx</li>
                     </ul>
                 </div>
             </li>

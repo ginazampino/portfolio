@@ -44,16 +44,25 @@
 
 // Project items:
 .project-portfolio {
-    background-image: url('/images/still-portfolio-v2.jpg');
+    background-image: url('/images/still-portfolio.jpg');
 }
 
 .project-photosite {
     background-image: url('/images/still-photosite.jpg');
 }
 
+.project-mulberry {
+    background-image: url('/images/still-mulberry.png');
+}
+
+.project-duende {
+    background-image: url('/images/still-duende.png');
+}
+
 .project-image {
     background-size: cover;
     background-position: center;
+    background-position-y: 0;
     position: relative;
     height: 200px;
     width: 100%;

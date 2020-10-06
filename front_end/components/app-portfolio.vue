@@ -4,7 +4,7 @@
             <section class="portfolio-resume">
                 <a href="https://drive.google.com/open?id=1l85i7DAIemMnfdUFKM0cjL-Uc8hejeexPaGHYUu5KRw" target="_blank">
                     <span class="resume-download">
-                        <i class="fas fa-download"></i>Resume
+                        <i class="fal fa-external-link"></i>Resume
                     </span>
                 </a>
             </section>

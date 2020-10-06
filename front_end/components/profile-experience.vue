@@ -4,7 +4,7 @@
         <ul class="vertical-line">
             <li class="vertical-line-content">
                 <div class="bulleted content-header timeline-header">
-                    <div class="content-title">Web Developer &amp; Designer</div>
+                    <div class="content-title">Front-End Web Developer</div>
                     <div class="content-details">Dec. 2019 – Present</div>
                 </div>
                 <div class="bulleted content-subheader timeline-subheader">
