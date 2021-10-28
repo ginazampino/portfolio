@@ -156,13 +156,6 @@
                     <ul class="project-details">
                         <li>
                             <span class="project-details-label">
-                                <a class="profile-a" href="http://photography.ginazampino.com" target="_blank">
-                                    Live
-                                </a>
-                            </span>
-                        </li>   
-                        <li>
-                            <span class="project-details-label">
                                 <a class="profile-a" href="https://github.com/ginazampino/photosite" target="_blank">
                                     Source
                                 </a>

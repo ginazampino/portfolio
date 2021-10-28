@@ -27,6 +27,8 @@
                         <li>Graphic Design</li>
                         <li>Print Design</li>
                         <li>Web Design</li>
+                        <li>Photography</li>
+                        <li>Illustration</li>
                     </ul>
                 </div>
             </li>
